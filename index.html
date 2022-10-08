@@ -13,14 +13,15 @@
     <style>
         body {
             background-color: #f3dbcf;
-            padding: 1px 50px;
+            padding: 0px 50px;
         }
         
         .btn_header {
             border: none;
             background-color: inherit;
-            padding: 20px 28px;
-            font-size: 16px;
+            padding: 15px 28px;
+            font-size: 18px;
+            font-family: monospace;
             text-decoration: none;
             color: #D87F81;
             /* cursor: pointer;
@@ -30,9 +31,8 @@
         .btn_title {
             border: none;
             background-color: inherit;
-            padding: 8px 28px;
-            font-size: 40px;
-            font-weight: 400;
+            font-size: 48px;
+            font-family: monospace;
             text-decoration: none;
             color: #ae6378;
         }
@@ -41,8 +41,15 @@
             border: none;
             background-color: inherit;
             text-align: center;
+            padding: 0px 10px;
             font-size: 20px;
             color: #ae6378;
+        }
+
+        .card{
+            padding: 18px;
+            border: none;
+            background-color: #D87F81;
         }
         
         a:hover {
@@ -67,8 +74,8 @@
         <div class="row">
             <div class="col">
                 <div class="d-flex flex-row-reverse">
-                    <button class="btn_icon"><i class="fa fa-sign-out" alt="Deslogar"></i></button>
-                    <button class="btn_icon"><i class="fa fa-user"alt="Logar"></i></button>
+                    <a href="#user" class="btn_icon"><i class="fa fa-sign-out" alt="Deslogar"></i></a>
+                    <a href="#deslogar"class="btn_icon"><i class="fa fa-user"alt="Logar"></i></a>
                 </div>
             </div>
         </div>
@@ -89,14 +96,15 @@
 
 <!-- Home -->
 <br>
+
 <div id="carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100" src="assets/pomme.png" alt="Maça">
-        </div>
+        <!-- </div>
         <div class="carousel-item">
             <img class="d-block w-100" src="assets/sheep.gif" alt="Gif de ovelha">
-        </div>
+        </div> -->
     </div>
     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -107,6 +115,48 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
+<br><br><br>
+
+<div class="jumbotron jumbotron-fluid" style="background-color:#ae6378">
+    <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<br>
+
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="/Projeto-de-Web/assets/photo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="/Projeto-de-Web/assets/photo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="/Projeto-de-Web/assets/photo.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+<br><br>
 
 <h1 style="color: #e5c1cd;">Apples</h1>
 <p style="color: #c0bbc8;">The apple is the pomaceous fruit of the apple tree.</p>

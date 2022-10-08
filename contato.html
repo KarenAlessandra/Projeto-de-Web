@@ -31,6 +31,7 @@
     <style>
         body {
             background-color: #f3dbcf;
+            color: #D87F81;
         }
         
         .containerPage0 {
@@ -72,9 +73,10 @@
         }
 
         .btn_send {
-            background-color: #ae6378;
+            background-color: #D87F81;
             border: outset;
             border-color: #e5c1cd;
+            color: white;
             padding: 10px 30px;
         }
         
@@ -107,10 +109,10 @@
             <!-- links on navbar -->
             <div class="container text-center">
                 <div class="row row-cols-5">
-                    <a href="/" class="btn_header">Home</a>
-                    <a href="/produtos.html" class="btn_header">Produtos</a>
-                    <a href="/" class="btn_title">TITULO</a>
-                    <a href="/quemsomos.html" class="btn_header">Quem Somos</a>
+                    <a href="/" class="btn_header" alt="Página Inicial">Home</a>
+                    <a href="/produtos.html" class="btn_header" alt="Produtos">Produtos</a>
+                    <a href="/" class="btn_title" alt="Página Inicial">TITULO</a>
+                    <a href="/quemsomos.html" class="btn_header" alt="Sobre nós">Quem Somos</a>
                     <a href="/contato.html" class="btn_header">Contato</a>
                 </div>
             </div>
@@ -123,7 +125,7 @@
         <br>
         <div class="container text-align">
             <div class="row row-cols-5">
-                <a href="/" class="btn_title">Contato</a>
+                <a href="/" class="btn_title" alt="Página de Contato">Contato</a>
             </div>
         </div>
         <br>
@@ -132,31 +134,22 @@
         <div class="containerPage1">
             <form>
                 <div class="form-group">
-                    <label for="form_email">Endereço de E-mail</label>
-                    <input type="email" class="form-control" id="form_email" placeholder="nome@example.com">
+                    <label for="form_text">Endereço de E-mail</label>
+                    <input type="email" class="form-control" id="form_email" placeholder="nome@example.com" alt="Campo de Email">
                 </div>
                 <div class="form-group">
-                    <label for="form_name">Nome</label>
-                    <input type="email" class="form-control" id="form_name" placeholder="Nome Completo">
+                    <label for="form_text">Nome</label>
+                    <input type="email" class="form-control" id="form_name" placeholder="Nome Completo" alt="Campo de Nome">
                 </div>
                 <div class="form-group">
                     <label for="form_text">Mensagem</label>
-                    <textarea class="form-control" id="form_text" rows="4"></textarea>
+                    <textarea class="form-control" id="form_text" rows="4" alt="Campo de Mensagem"></textarea>
                 </div>
                 <br>
 
                 <!-- button -->
-                <button type="enviar" class="btn_send">Enviar</button>
+                <button type="enviar" class="btn_send" alt="Botão Enviar Mensagem de Contato">Enviar</button>
             </form>
-        </div>
-        <br><br><br>
-        
-        <!-- footer -->
-        <div class="jumbotron jumbotron-fluid" style="background-color:#ae6378">
-            <div class="container">
-                <h1 class="display-4">Page's end</h1>
-                <p class="lead">:3</p>
-            </div>
         </div>
         
     </main>

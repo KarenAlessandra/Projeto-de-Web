@@ -33,8 +33,12 @@
             background-color: #f3dbcf;
         }
         
-        .containerPage {
+        .containerPage0 {
             padding: 0px 8rem;
+        }
+        
+        .containerPage1 {
+            padding: 0px 12rem;
         }
         
         .btn_header {
@@ -66,29 +70,19 @@
             font-size: 20px;
             color: #ae6378;
         }
-        
-        .card {
-            padding: 18px;
-            border: none;
-            background-color: #D87F81;
+
+        .btn_send {
+            background-color: #ae6378;
+            border: outset;
+            border-color: #e5c1cd;
+            padding: 10px 30px;
         }
         
         a:hover {
             color: #e5c1cd;
             text-decoration: none;
         }
-        
-        img {
-            object-fit: contain;
-            width: 100%;
-            height: 250px;
-        }
-        
-        hr {
-            border: none;
-            height: 3px;
-            background-color: #ae6378;
-        }
+
     </style>
 </head>
 
@@ -97,8 +91,8 @@
 <body>
     <main>
         <br>
-        <div class="containerPage">
-            <!-- icons at the header -->
+        <div class="containerPage0">
+            <!-- 'user' and 'exit' icons at the header -->
             <div class="row">
                 <div class="col">
                     <div class="d-flex flex-row-reverse">
@@ -109,7 +103,7 @@
             </div>
         </div>
         
-        <div class="containerPage">
+        <div class="containerPage0">
             <!-- links on navbar -->
             <div class="container text-center">
                 <div class="row row-cols-5">
@@ -122,8 +116,49 @@
             </div>
             <hr>
         </div>
-        <!-- Home -->
+
+        <!-- home -->
+        
+        <!-- "Contato" title -->
         <br>
+        <div class="container text-align">
+            <div class="row row-cols-5">
+                <a href="/" class="btn_title">Contato</a>
+            </div>
+        </div>
+        <br>
+
+        <!-- e-mail, name and text fields -->
+        <div class="containerPage1">
+            <form>
+                <div class="form-group">
+                    <label for="form_email">Endereço de E-mail</label>
+                    <input type="email" class="form-control" id="form_email" placeholder="nome@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="form_name">Nome</label>
+                    <input type="email" class="form-control" id="form_name" placeholder="Nome Completo">
+                </div>
+                <div class="form-group">
+                    <label for="form_text">Mensagem</label>
+                    <textarea class="form-control" id="form_text" rows="4"></textarea>
+                </div>
+                <br>
+
+                <!-- button -->
+                <button type="enviar" class="btn_send">Enviar</button>
+            </form>
+        </div>
+        <br><br><br>
+        
+        <!-- footer -->
+        <div class="jumbotron jumbotron-fluid" style="background-color:#ae6378">
+            <div class="container">
+                <h1 class="display-4">Page's end</h1>
+                <p class="lead">:3</p>
+            </div>
+        </div>
+        
     </main>
 </body>
 

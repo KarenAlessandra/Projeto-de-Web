@@ -34,12 +34,21 @@
             color: #D87F81;
         }
         
-        .containerPage0 {
+        .containerPage {
             padding: 0px 8rem;
+            background-color: #f3dbcf;
         }
         
-        .containerPage1 {
-            padding: 0px 12rem;
+        .container0 {
+            background-color: #e5c1cd;
+            padding-top: 10px;
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom:10px;
+        }
+        
+        .container1 {
+            background-color: #f3dbcf;
         }
         
         .btn_header {
@@ -71,7 +80,7 @@
             font-size: 20px;
             color: #ae6378;
         }
-
+        
         .btn_send {
             background-color: #D87F81;
             border: outset;
@@ -84,7 +93,13 @@
             color: #e5c1cd;
             text-decoration: none;
         }
-
+        
+        hr {
+            border: none;
+            height: 3px;
+            background-color:#ae6378;
+        }
+        
     </style>
 </head>
 
@@ -92,66 +107,66 @@
 
 <body>
     <main>
-        <br>
-        <div class="containerPage0">
+        <div class="container0">
             <!-- 'user' and 'exit' icons at the header -->
             <div class="row">
                 <div class="col">
                     <div class="d-flex flex-row-reverse">
                         <a href="#deslogar" class="btn_icon"><i class="fa fa-sign-out" alt="Deslogar"></i></a>
-                        <a href="/login.html" class="btn_icon"><i class="fa fa-user" alt="Logar"></i></a>
+                        <a href="./login.html" class="btn_icon"><i class="fa fa-user" alt="Logar"></i></a>
                     </div>
                 </div>
             </div>
         </div>
+        <br>
         
-        <div class="containerPage0">
+        <div class="containerPage">
             <!-- links on navbar -->
-            <div class="container text-center">
+            <div class="container1 text-center">
                 <div class="row row-cols-5">
-                    <a href="/" class="btn_header" alt="Página Inicial">Home</a>
-                    <a href="/produtos.html" class="btn_header" alt="Produtos">Produtos</a>
-                    <a href="/" class="btn_title" alt="Página Inicial">TITULO</a>
-                    <a href="/quemsomos.html" class="btn_header" alt="Sobre nós">Quem Somos</a>
-                    <a href="/contato.html" class="btn_header">Contato</a>
+                    <a href="./" class="btn_header">Home</a>
+                    <a href="./produtos.html" class="btn_header">Produtos</a>
+                    <a href="./" class="btn_title">TITULO</a>
+                    <a href="./quemsomos.html" class="btn_header">Quem Somos</a>
+                    <a href="./contato.html" class="btn_header">Contato</a>
                 </div>
             </div>
             <hr>
-        </div>
-
-        <!-- home -->
-        
-        <!-- "Contato" title -->
-        <br>
-        <div class="container text-align">
-            <div class="row row-cols-5">
-                <a href="/" class="btn_title" alt="Página de Contato">Contato</a>
-            </div>
-        </div>
-        <br>
-
-        <!-- e-mail, name and text fields -->
-        <div class="containerPage1">
-            <form>
-                <div class="form-group">
-                    <label for="form_text">Endereço de E-mail</label>
-                    <input type="email" class="form-control" id="form_email" placeholder="nome@example.com" alt="Campo de Email">
-                </div>
-                <div class="form-group">
-                    <label for="form_text">Nome</label>
-                    <input type="email" class="form-control" id="form_name" placeholder="Nome Completo" alt="Campo de Nome">
-                </div>
-                <div class="form-group">
-                    <label for="form_text">Mensagem</label>
-                    <textarea class="form-control" id="form_text" rows="4" alt="Campo de Mensagem"></textarea>
+            
+            
+            <!-- home -->
+            
+            <!-- "Contato" title -->
+            <br>
+            <div class="container1">
+                <div class="row row-cols-5">
+                    <a href="./" class="btn_title" alt="Página de Login">Login</a>
                 </div>
                 <br>
-
-                <!-- button -->
-                <button type="enviar" class="btn_send" alt="Botão Enviar Mensagem de Contato">Enviar</button>
-            </form>
+                
+                <!-- e-mail, name and text fields -->
+                <form>
+                    <div class="form-group">
+                        <label for="form_text">Endereço de E-mail</label>
+                        <input type="email" class="form-control" id="form_email" placeholder="nome@example.com"
+                        alt="Campo de Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="form_text">Senha</label>
+                        <input type="email" class="form-control" id="form_password" placeholder="Senha Completo"
+                        alt="Campo de Senha">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="check">
+                        <label class="form-check-label" for="check">Continuar Logado</label>
+                    </div>
+                    <br>
+                    
+                    <!-- button -->
+                    <button type="enviar" class="btn_send" alt="Botão Logar">Logar</button>
+                </form>
+            </div>
         </div>
-        
     </main>
 </body>
 

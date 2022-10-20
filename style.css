@@ -95,8 +95,8 @@ body {
 
 /* card da pagina produto */
 .chama { 
-    background-color: white !important;
-    height: 10rem;
+    background-color: white;
+    height: auto;
     margin-bottom: 1rem;
 }
 

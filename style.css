@@ -1,3 +1,14 @@
+
+@media (max-width: 768px) {
+    .containerPage{
+        padding: 0 !important;
+    }
+}
+
+main {
+    width: 100%;
+}
+
 body {
     background-color: #f3dbcf;
     color: #D87F81
@@ -43,7 +54,7 @@ body {
 .btn_header {
     border: none;
     background-color: inherit;
-    padding: 15px 28px;
+    padding: 20px;
     font-size: 18px;
     font-family: monospace;
     text-decoration: none;
@@ -70,11 +81,23 @@ body {
     color: #f3dbcf;
 }
 
+.h1_title {
+    color: #ae6378;
+    font-family: monospace;
+}
+
 .card {
     padding: 18px;
     border: none;
     background-color: #D87F81;
     color: #e5c1cd;
+}
+
+/* card da pagina produto */
+.chama { 
+    background-color: white !important;
+    height: 10rem;
+    margin-bottom: 1rem;
 }
 
 a:hover {

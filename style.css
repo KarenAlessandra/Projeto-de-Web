@@ -90,14 +90,15 @@ body {
     padding: 18px;
     border: none;
     background-color: #D87F81;
-    color: #e5c1cd;
+    color: #ae6378
 }
 
 /* card da pagina produto */
 .chama { 
-    background-color: white;
+    background-color: #f3dbcf;
     height: auto;
     margin-bottom: 1rem;
+    width: 8rem;
 }
 
 a:hover {

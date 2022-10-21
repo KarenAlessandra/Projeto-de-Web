@@ -116,3 +116,13 @@ hr {
     height: 3px;
     background-color: #ae6378;
 }
+
+.page-item.active  .page-link {
+    color: white;
+    background-color: #7e9680;
+    border-color: #7e9680;
+}
+
+.page-link {
+    color: #7e9680;
+}

@@ -51,6 +51,13 @@ body {
     padding: 10px 30px;
 }
 
+.btn_cancel {
+    background-color: #ae6378;
+    border: outset;
+    color: white;
+    padding: 10px 30px;
+}
+
 .btn_header {
     border: none;
     background-color: inherit;
@@ -126,4 +133,43 @@ hr {
 
 .page-link {
     color: #7e9680;
+}
+
+.modal-header {
+    background-color: #f3dbcf;
+    color: #D87F81;
+}
+.modal-body {
+    background-color: #f3dbcf;
+    color: #D87F81;
+}
+.modal-footer {
+    background-color: #f3dbcf;
+    color: #D87F81;
+}
+
+.btn_carrinho {
+    background-color: #7e9680;
+    border: none;
+    color: #f3dbcf;
+    font-size: 20px;
+    /* padding: 10px 30px; */
+}
+
+.img_carrinho {
+    width: 6em;
+    height: 6em;
+}
+
+.btn_less {
+    background-color: #7e9680;
+    border: outset;
+    color: white;
+    padding: 1px 10px;
+}
+.btn_plus {
+    background-color: #7e9680;
+    border: outset;
+    color: white;
+    padding: 1px 10px;
 }

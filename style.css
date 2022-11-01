@@ -31,6 +31,7 @@ body {
     background-color: #f3dbcf;
 }
 
+
  /* container do card com a imagem e texto  */
 .container2 {
     background-color: #D87F81;
@@ -53,15 +54,22 @@ body {
 
 .btn_header {
     border: none;
+    padding-top: 40px;
     background-color: inherit;
     padding: 20px;
     font-size: 18px;
     font-family: monospace;
     text-decoration: none;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
     color: #D87F81;
     /* cursor: pointer;
     display: inline-block; */
 }
+
+.git pull
+
 
 .btn_title {
     border: none;
@@ -127,3 +135,4 @@ hr {
 .page-link {
     color: #7e9680;
 }
+

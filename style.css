@@ -84,6 +84,7 @@ body {
     font-family: monospace;
     text-decoration: none;
     color: #ae6378;
+    align-self: end;
 }
 
 .btn_icon {

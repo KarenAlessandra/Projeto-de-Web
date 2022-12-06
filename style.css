@@ -105,7 +105,8 @@ body {
     padding: 18px;
     border: none;
     background-color: #D87F81;
-    color: #ae6378
+    color: #ae6378;
+    text-align: justify;
 }
 
 /* card da pagina produto */

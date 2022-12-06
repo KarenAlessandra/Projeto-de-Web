@@ -62,21 +62,21 @@ body {
 
 .btn_header {
     border: none;
-    padding-top: 40px;
+    /* padding-top: 20px; */
     background-color: inherit;
     padding: 20px;
-    font-size: 18px;
+    font-size: 30px;
     font-family: monospace;
     text-decoration: none;
     text-align: center;
     height: 100px;
-    line-height: 100px;
+    line-height: 200px;
     color: #D87F81;
     /* cursor: pointer;
     display: inline-block; */
 }
 
-
+/* 
 .btn_title {
     border: none;
     background-color: inherit;
@@ -85,7 +85,7 @@ body {
     text-decoration: none;
     color: #ae6378;
     align-self: end;
-}
+} */
 
 .btn_icon {
     border: none;

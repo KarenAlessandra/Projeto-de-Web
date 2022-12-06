@@ -93,7 +93,7 @@ body {
     text-align: center;
     padding: 0px 10px;
     font-size: 20px;
-    color: #f3dbcf;
+    color: #f3dbcf !important;
 }
 
 .h1_title {
@@ -117,7 +117,12 @@ body {
 }
 
 a:hover {
-    color: #e5c1cd;
+    color: #e5c1cd !important;
+    text-decoration: none;
+}
+
+a {
+    color: #D87F81 !important;
     text-decoration: none;
 }
 

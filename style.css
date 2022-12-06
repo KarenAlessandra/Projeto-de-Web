@@ -27,18 +27,17 @@ body {
     padding-bottom: 10px;
 }
 
+/* container dos titulos */
 .container1 {
     background-color: #f3dbcf;
 }
 
-/*:3*/
-
- /* container do card com a imagem e texto  */
+ /* container dos cards */
 .container2 {
     background-color: #D87F81;
     padding: 3rem;
-    /* border:outset; */
     color: #f3dbcf;
+    padding-right: 0px;
 }
 
 .containerLogin {
@@ -110,7 +109,8 @@ body {
 }
 
 /* card da pagina produto */
-.chama { 
+.chama {
+    text-align: center;
     background-color: #f3dbcf;
     height: auto;
     margin-bottom: 1rem;

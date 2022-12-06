@@ -38,7 +38,7 @@ body {
     background-color: #D87F81;
     padding: 3rem;
     /* border:outset; */
-    color: white;
+    color: #f3dbcf;
 }
 
 .containerLogin {
@@ -65,11 +65,11 @@ body {
     /* padding-top: 20px; */
     background-color: inherit;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: monospace;
     text-decoration: none;
     text-align: center;
-    height: 100px;
+    /* height: 50px; */
     line-height: 200px;
     color: #D87F81;
     /* cursor: pointer;
